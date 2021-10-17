@@ -3,21 +3,22 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"    
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^10.0.0",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "mongoose": "^5.10.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/node": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
-    "@babel/register": "^7.12.10",    
+    "@babel/register": "^7.12.10",
     "nodemon": "^2.0.7"
   }
 }
